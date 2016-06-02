@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_height="wrap_content" 
+  android:orientation="horizontal" 
+  android:layout_width="fill_parent" android:padding="5dp" android:background="@color/background">
+    <TextView android:id="@+id/item1" 
+     android:textSize="@dimen/myds_item1_size"
+     android:textColor="@android:color/black"
+     android:layout_width="wrap_content" 
+     android:layout_height="wrap_content" android:textStyle="bold" android:paddingLeft="3dp" android:hint="***" android:text="Item1">
+    </TextView>
+    <TextView android:text="Item2" 
+     android:id="@+id/item2" 
+     android:textSize="@dimen/myds_item2_size"
+     android:textColor="@android:color/black"
+     android:paddingLeft="10dp"
+     android:layout_height="wrap_content" 
+     android:layout_width="fill_parent" android:singleLine="true" android:ellipsize="marquee">
+    </TextView>
+</LinearLayout>

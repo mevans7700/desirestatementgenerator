@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:background="@color/background">
+    <ImageView android:id="@+id/imageView1" android:layout_height="wrap_content" android:layout_width="fill_parent" android:background="@drawable/overview"></ImageView>
+    <ImageButton android:layout_height="wrap_content" android:id="@+id/overview_video" android:layout_width="fill_parent" android:background="@drawable/overview_video"></ImageButton>
+
+ <ScrollView android:id="@+id/ScrollView01" android:layout_height="fill_parent" 
+  android:layout_width="fill_parent" android:isScrollContainer="true" 
+  android:scrollbarAlwaysDrawVerticalTrack="true" android:scrollbars="vertical">
+  <LinearLayout android:id="@+id/LinearLayout01" android:layout_height="fill_parent" 
+   android:layout_width="fill_parent" android:orientation="vertical">
+   <TextView android:id="@+id/TextView05" android:layout_height="wrap_content" android:layout_width="fill_parent" android:textSize="@dimen/step_textbox_size" android:text="@string/overview_text1" android:textColor="@android:color/black" android:padding="10dp"></TextView>
+
+   <TextView android:id="@+id/TextView06" android:layout_height="wrap_content" android:layout_width="fill_parent" android:textSize="@dimen/step_textbox_size" android:text="@string/overview_text2" android:textStyle="bold" android:textColor="@android:color/black" android:paddingLeft="15dp" android:paddingTop="10dp"></TextView>
+   <TextView android:id="@+id/TextView06" android:layout_height="wrap_content" android:layout_width="fill_parent" android:paddingTop="10dp" android:textSize="@dimen/step_textbox_size" android:paddingLeft="15dp" android:text="@string/overview_text3" android:textStyle="bold" android:textColor="@android:color/black" android:paddingRight="5dp"></TextView>
+   <TextView android:id="@+id/TextView06" android:layout_height="wrap_content" android:layout_width="fill_parent" android:paddingTop="10dp" android:textSize="@dimen/step_textbox_size" android:paddingLeft="15dp" android:text="@string/overview_text4" android:textStyle="bold" android:textColor="@android:color/black"></TextView>
+   <TextView android:id="@+id/TextView08" android:layout_height="wrap_content" android:layout_width="fill_parent" android:textSize="@dimen/step_textbox_size" android:text="@string/overview_text5" android:textColor="@android:color/black" android:padding="10dp"></TextView>
+   <TextView android:id="@+id/TextView04" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="@dimen/step_textbox_size" android:text="@string/overview_text6" android:textColor="@android:color/black" android:padding="10dp"></TextView>
+   <TextView android:id="@+id/TextView04" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="@dimen/step_textbox_size" android:text="@string/overview_text7" android:textColor="@android:color/black" android:padding="10dp"></TextView>
+   <TextView android:id="@+id/TextView04" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="@dimen/step_textbox_size" android:text="@string/overview_text8" android:textStyle="bold" android:textColor="@android:color/black" android:padding="10dp"></TextView>
+   <TextView android:id="@+id/TextView06" android:layout_height="wrap_content" android:layout_width="fill_parent" android:paddingTop="10dp" android:textSize="@dimen/step_textbox_size" android:paddingLeft="15dp" android:text="@string/overview_text9" android:textColor="@android:color/black"></TextView>
+   <TextView android:id="@+id/TextView06" android:layout_height="wrap_content" android:layout_width="fill_parent" android:paddingTop="10dp" android:textSize="@dimen/step_textbox_size" android:paddingLeft="15dp" android:text="@string/overview_text10" android:textColor="@android:color/black"></TextView>
+   <TextView android:id="@+id/TextView06" android:layout_height="wrap_content" android:layout_width="fill_parent" android:paddingTop="10dp" android:textSize="@dimen/step_textbox_size" android:paddingLeft="15dp" android:text="@string/overview_text11" android:textColor="@android:color/black"></TextView>
+   <TextView android:id="@+id/TextView04" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="@dimen/step_textbox_size" android:text="@string/overview_text12" android:textColor="@android:color/black" android:padding="10dp"></TextView>
+   <TextView android:id="@+id/TextView04" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="@dimen/step_textbox_size" android:text="@string/overview_text13" android:textColor="@android:color/black" android:padding="10dp"></TextView>
+   <TextView android:id="@+id/TextView04" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="@dimen/step_textbox_size" android:text="@string/overview_text14" android:textStyle="bold" android:textColor="@android:color/black" android:padding="10dp" android:scrollbarAlwaysDrawVerticalTrack="true"></TextView>
+  </LinearLayout>
+ </ScrollView>
+ 
+</LinearLayout>
+

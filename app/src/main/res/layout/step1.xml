@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:background="@color/background">
+    <ImageView android:id="@+id/imageView1" android:layout_height="wrap_content" android:layout_width="fill_parent" android:background="@drawable/write_ds"></ImageView>
+ <ScrollView android:id="@+id/ScrollView01" android:layout_height="fill_parent" android:layout_width="fill_parent" 
+  android:isScrollContainer="true" android:scrollbarAlwaysDrawVerticalTrack="true" android:scrollbars="vertical">
+  <LinearLayout android:id="@+id/LinearLayout01" android:layout_height="fill_parent" 
+   android:orientation="vertical" android:layout_width="fill_parent">
+   <TextView android:id="@+id/TextView03" android:layout_height="wrap_content" android:layout_width="fill_parent" 
+    android:textStyle="bold" android:text="@string/step_one_text1" 
+    android:textColor="@android:color/black" android:textSize="@dimen/step_textbox_size" android:padding="10dp">
+   </TextView>
+   <View android:id="@+id/view1" android:layout_width="wrap_content" android:layout_height="6px" android:background="@android:color/black"></View>
+   <TextView android:id="@+id/TextView05" android:layout_height="wrap_content" 
+    android:layout_width="fill_parent" android:gravity="center_horizontal" 
+    android:padding="10dp" android:text="@string/step_one_title" android:textColor="@android:color/black" 
+    android:textSize="@dimen/step_textbox_size" android:textStyle="bold">
+   </TextView>
+   <TextView android:id="@+id/TextView07" android:layout_height="wrap_content" 
+    android:layout_width="fill_parent" android:padding="10dp" android:text="@string/step_one_text2" 
+    android:textColor="@android:color/black" android:textSize="@dimen/step_textbox_size">
+   </TextView>
+   <TextView android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textStyle="bold" android:textColor="@android:color/black" android:padding="10dp" android:textSize="@dimen/step_textbox_size" android:text="@string/step_one_text3"></TextView>
+   <EditText android:layout_height="wrap_content" android:layout_width="fill_parent" 
+    android:lines="5" android:id="@+id/Box1" android:textColor="@android:color/black" android:scrollbars="vertical" android:isScrollContainer="true">
+   </EditText>
+   <Button android:layout_height="wrap_content" android:id="@+id/Button_1" 
+    android:layout_width="wrap_content" android:background="@drawable/continuebtn">
+   </Button>
+  </LinearLayout>
+ </ScrollView>
+ 
+</LinearLayout>

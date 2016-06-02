@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:paddingTop="5dp" android:layout_height="fill_parent" android:layout_width="fill_parent" android:background="@color/background" android:isScrollContainer="true" android:scrollbars="vertical" android:orientation="vertical" android:scrollbarStyle="insideOverlay">
+  
+  <ImageView android:id="@+id/imageView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/hoa_header" android:layout_gravity="center"></ImageView>
+  
+      
+     <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingTop="5dp">
+      <ListView android:cacheColorHint="#00000000" android:id="@+id/android:list" android:divider="@color/background" 
+       android:layout_width="fill_parent" android:layout_height="fill_parent" android:dividerHeight="2dp">
+      </ListView>
+      <!-- This will be viewed if the list is empty -->  
+      <TextView android:id="@+id/android:empty" 
+      android:layout_width="fill_parent" 
+      android:layout_height="fill_parent" 
+      android:text="No Menu Items" 
+      android:gravity="center" 
+      android:padding="10dp" 
+      android:textColor="@android:color/black" />
+     </LinearLayout> 
+    
+  
+</LinearLayout>

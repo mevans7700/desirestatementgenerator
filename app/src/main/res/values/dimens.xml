@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<dimen name="screen_title_size1">25dp</dimen>
+<dimen name="screen_title_size2">12dp</dimen>
+<dimen name="menu_dsname_size">23dp</dimen>
+<dimen name="menu_ds_size">16dp</dimen>
+<dimen name="menu_item_size">24dp</dimen>
+<dimen name="myds_item1_size">22dp</dimen>
+<dimen name="myds_item2_size">20dp</dimen>
+<dimen name="step_title_size1">19dp</dimen>
+<dimen name="step_title_size2">9dp</dimen>
+<dimen name="step_textbox_size">17dp</dimen>
+<dimen name="overview_title_size2">8dp</dimen>
+<dimen name="onlinecontenthdr_text_size">22dp</dimen>
+<dimen name="onlinecontent_text_size">18dp</dimen>
+<dimen name="hoa_text_size">16dp</dimen>
+<dimen name="my_ds_instruct">14dp</dimen>
+<dimen name="my_ds_row_size">22dp</dimen>
+</resources>

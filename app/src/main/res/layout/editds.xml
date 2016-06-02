@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:background="@color/background">
+    <ImageView android:id="@+id/imageView1" android:layout_height="wrap_content" android:layout_width="fill_parent" android:background="@drawable/edit_ds"></ImageView>
+
+ <ScrollView android:id="@+id/ScrollView01" android:layout_height="fill_parent" 
+  android:layout_width="fill_parent" android:isScrollContainer="true" 
+  android:scrollbarAlwaysDrawVerticalTrack="true" android:scrollbars="vertical">
+  <LinearLayout android:id="@+id/LinearLayout01" android:layout_height="fill_parent" 
+   android:orientation="vertical" android:layout_width="fill_parent">
+   <TextView android:id="@+id/TextView05" android:layout_height="wrap_content" android:layout_width="fill_parent" android:gravity="center_horizontal" android:padding="10dp" android:text="@string/edit_text1" android:textColor="@android:color/black" android:textSize="@dimen/step_textbox_size"></TextView>
+   <EditText android:layout_height="wrap_content" android:layout_width="fill_parent" android:lines="10" android:id="@+id/Box21" android:isScrollContainer="false" android:scrollbars="vertical"></EditText>
+   <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/Button_4" android:background="@drawable/updatebtn"></Button>
+  </LinearLayout>
+ </ScrollView>
+
+</LinearLayout>
+

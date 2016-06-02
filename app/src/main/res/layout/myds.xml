@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:background="@color/background">
+    
+  <TabHost android:id="@+id/TabHost01" android:layout_height="fill_parent" android:layout_width="fill_parent">
+   <LinearLayout android:id="@+id/LinearLayout01" android:orientation="vertical" 
+    android:layout_height="fill_parent" android:layout_width="fill_parent">
+    <ImageView android:id="@+id/imageView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/my_ds" android:layout_gravity="center"></ImageView>
+    <TabWidget android:id="@android:id/tabs" android:layout_height="wrap_content" 
+     android:layout_width="fill_parent">
+    </TabWidget>
+    <TextView android:id="@+id/TextView05" android:layout_height="wrap_content" 
+     android:layout_width="fill_parent" android:gravity="center_horizontal" 
+     android:padding="2dp" android:text="@string/my_ds_instructions" android:textColor="@color/instruct_text" 
+     android:textSize="@dimen/my_ds_instruct" android:textStyle="bold">
+     </TextView>
+    <FrameLayout android:id="@android:id/tabcontent" android:layout_height="fill_parent" 
+     android:layout_width="fill_parent">
+     
+     <ListView android:layout_width="wrap_content" android:layout_height="wrap_content" 
+      android:id="@+id/finish_DS" android:cacheColorHint="#00000000" android:paddingTop="5dp">
+     </ListView>
+     <ListView android:layout_width="wrap_content" android:layout_height="wrap_content" 
+      android:id="@+id/unfinish_DS" android:cacheColorHint="#00000000" android:paddingTop="5dp">
+     </ListView>
+    </FrameLayout>
+   </LinearLayout>
+  </TabHost>
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:background="@color/background">
+    <ImageView android:id="@+id/imageView1" android:layout_height="wrap_content" android:background="@drawable/about" android:layout_width="fill_parent"></ImageView>
+
+ <ScrollView android:id="@+id/ScrollView01" android:layout_height="fill_parent" 
+  android:layout_width="fill_parent" android:isScrollContainer="true" 
+  android:scrollbarAlwaysDrawVerticalTrack="true" android:scrollbars="vertical">
+     
+  <LinearLayout android:id="@+id/LinearLayout01" android:layout_height="fill_parent" 
+   android:layout_width="fill_parent" android:orientation="vertical">
+   <TextView android:id="@+id/TextView05" android:layout_height="wrap_content" android:padding="10dp" android:text="@string/about_text1" android:textColor="@android:color/black" android:textSize="@dimen/hoa_text_size" android:layout_width="wrap_content" android:gravity="center" android:textStyle="bold|italic"></TextView>
+
+   <TextView android:id="@+id/TextView04" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@android:color/black" android:textSize="@dimen/hoa_text_size" android:padding="10dp" android:text="@string/about_text2"></TextView>
+   <TextView android:id="@+id/TextView06" android:layout_height="wrap_content" android:layout_width="fill_parent" android:text="@string/about_text3" android:textColor="@android:color/black" android:textSize="@dimen/hoa_text_size" android:padding="10dp"></TextView>
+   <TextView android:id="@+id/TextView08" android:layout_height="wrap_content" android:text="@string/about_text4" android:layout_width="wrap_content" android:textColor="@android:color/black" android:textSize="@dimen/hoa_text_size" android:padding="10dp"></TextView>
+
+   <TextView android:id="@+id/TextView03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/about_text5" android:autoLink="web" android:textColor="@android:color/black" android:textSize="@dimen/hoa_text_size" android:padding="10dp" android:textStyle="bold"></TextView>
+  </LinearLayout>
+
+ </ScrollView>
+</LinearLayout>

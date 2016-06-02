@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:background="@color/background">
+ <ImageView android:id="@+id/imageView1" android:layout_height="wrap_content" android:layout_width="fill_parent" android:background="@drawable/write_ds"></ImageView>
+ <ScrollView android:id="@+id/ScrollView01" android:layout_height="fill_parent" 
+  android:layout_width="fill_parent" android:isScrollContainer="true" 
+  android:scrollbarAlwaysDrawVerticalTrack="true" android:scrollbars="vertical">
+  <LinearLayout android:id="@+id/LinearLayout01" android:layout_height="fill_parent" 
+   android:layout_width="fill_parent" android:orientation="vertical">
+   <TextView android:layout_height="wrap_content" android:id="@+id/TextView_Box8" 
+    android:gravity="center_horizontal" 
+    android:layout_width="fill_parent" android:text="test" android:textColor="@color/step_answer_color" 
+    android:background="@color/menu_color" android:textSize="@dimen/step_textbox_size" android:padding="15dp">
+   </TextView>
+   <TextView android:id="@+id/TextView03" android:layout_width="wrap_content" 
+    android:layout_height="wrap_content">
+   </TextView>
+   <TextView android:layout_height="wrap_content" android:layout_width="fill_parent" 
+    android:textColor="@color/step_answer_color" android:text="test" android:id="@+id/TextView_Box11" 
+    android:gravity="center_horizontal" android:background="@color/menu_color" 
+    android:textSize="@dimen/step_textbox_size" android:padding="15dp">
+   </TextView>
+   <View android:id="@+id/view1" android:layout_width="wrap_content" android:layout_height="6px" android:background="@android:color/black"></View>
+   <LinearLayout android:id="@+id/LinearLayout02" android:layout_height="wrap_content" 
+    android:layout_width="fill_parent" android:background="@color/answer_background" android:padding="10dp" android:orientation="vertical">
+    <TextView android:id="@+id/TextView03" android:layout_width="wrap_content" 
+     android:layout_height="wrap_content" android:textStyle="bold" android:text="@string/how_it_affects_your" 
+     android:textColor="@android:color/black" android:textSize="@dimen/step_textbox_size" android:padding="5dp">
+    </TextView>
+    <TextView android:layout_height="wrap_content" android:layout_width="fill_parent" 
+     android:textColor="@color/step_answer_color" android:text="test" android:id="@+id/TextView_Box12" android:textSize="@dimen/step_textbox_size" android:padding="5dp">
+    </TextView>
+    <TextView android:id="@+id/TextView10" android:layout_height="wrap_content" 
+     android:layout_width="fill_parent" android:textStyle="bold" android:text="@string/those_arount_your" 
+     android:textColor="@android:color/black" android:textSize="@dimen/step_textbox_size" android:padding="5dp">
+    </TextView>
+    <TextView android:layout_height="wrap_content" android:layout_width="fill_parent" android:text="test" 
+     android:textColor="@color/step_answer_color" android:paddingLeft="5dp" android:id="@+id/TextView_Box13"
+     android:textSize="@dimen/step_textbox_size">
+    </TextView>
+    <TextView android:id="@+id/TextView09" android:layout_height="wrap_content" 
+     android:layout_width="fill_parent" android:textStyle="bold" android:text="@string/those_connected_to_it" 
+     android:textColor="@android:color/black" android:textSize="@dimen/step_textbox_size" android:padding="5dp">
+    </TextView>
+    <TextView android:layout_height="wrap_content" android:text="test" 
+     android:textColor="@color/step_answer_color" android:layout_width="fill_parent" 
+     android:paddingLeft="5dp" android:id="@+id/TextView_Box14" android:textSize="@dimen/step_textbox_size">
+    </TextView>
+   </LinearLayout>
+   <View android:id="@+id/view1" android:layout_width="wrap_content" android:layout_height="6px" android:background="@android:color/black"></View>
+
+
+
+<TextView android:id="@+id/TextView05" android:layout_height="wrap_content" android:layout_width="fill_parent" android:gravity="center_horizontal" android:padding="10dp" android:text="@string/step_ten_title" android:textColor="@android:color/black" android:textSize="@dimen/step_textbox_size" android:textStyle="bold"></TextView>
+<TextView android:id="@+id/TextView07" android:layout_height="wrap_content" android:layout_width="fill_parent" android:padding="10dp" android:textSize="@dimen/step_textbox_size" android:text="@string/step_ten_text1" android:textColor="@android:color/black"></TextView>
+
+
+
+
+
+
+<TextView android:id="@+id/TextView04" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="@dimen/step_textbox_size" android:text="@string/step_ten_text2" android:textColor="@android:color/black" android:padding="10dp"></TextView>
+<TextView android:id="@+id/TextView06" android:layout_height="wrap_content" android:layout_width="fill_parent" android:textSize="@dimen/step_textbox_size" android:text="@string/step_ten_text3" android:textColor="@android:color/black" android:padding="10dp" android:gravity="center" android:textStyle="bold"></TextView>
+<TextView android:id="@+id/TextView06" android:layout_height="wrap_content" android:layout_width="fill_parent" android:textSize="@dimen/step_textbox_size" android:text="@string/step_ten_text4" android:textColor="@android:color/black" android:gravity="center" android:padding="10dp" android:textStyle="bold"></TextView>
+
+
+
+<TextView android:id="@+id/TextView06" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="@dimen/step_textbox_size" android:text="@string/step_ten_text5" android:textColor="@android:color/black" android:padding="10dp"></TextView>
+<EditText android:layout_height="wrap_content" android:layout_width="fill_parent" android:lines="3" android:id="@+id/Box15" android:isScrollContainer="false" android:scrollbars="vertical"></EditText>
+
+
+<Button android:layout_height="wrap_content" android:id="@+id/Button_1" android:layout_width="wrap_content" android:background="@drawable/continuebtn"></Button>
+
+
+
+
+
+
+</LinearLayout>
+
+</ScrollView>
+
+
+</LinearLayout>
+
